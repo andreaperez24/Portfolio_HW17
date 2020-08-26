@@ -1,0 +1,154 @@
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #010038;
+}
+
+p {
+    font-family: 'Mulish', sans-serif;
+    color: #010038;
+    font-size: 17px;
+}
+/* Header Section */
+
+header {
+    background-color: #F8FFFB;
+    display: flex;
+    align-items: center;
+}
+
+.nav_item{
+    display: inline-block;
+    padding: 15px;
+    font-family: 'Mulish', sans-serif;
+    color: #010038;
+    font-size: 17px;
+    line-height: 150%;
+}
+
+.logo {
+    width: 242px;
+    margin-left: 142px;
+    margin-right: 590px;
+    font-family: 'Satisfy', cursive;
+    color: #F18C7E;
+}
+
+.navigation{
+    margin-right: 133px;
+   
+}
+
+/* Header Section */
+
+.hero{
+    background-color: #F8FFFB;
+    display: flex;
+    height: 350px;
+}
+
+.content {
+    width: 765px;
+    margin-left: 142px;
+    margin-right: 50px;
+}
+.Andrea{
+    font-family: 'Patua One', cursive;
+    font-weight: bold;
+    font-size: 44px;
+    color: #010038;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+.name{
+    color: #F18C7E;
+}
+
+.my_picture{
+    height: 350px;
+    width: 275px;
+}
+
+/* Projects Section */
+
+.projects{
+    background-color: #F8FFFB;
+    padding: 48px 133px 0 142px;
+}
+
+.special_h2 {
+    font-family: 'Patua One', cursive;
+    font-weight: bold;
+    font-size: 32px;
+    color: #010038;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.project_item{
+    width: 1149px;
+    padding: 24px;
+}
+
+.mockup {
+    width: 1149px;
+    height: 350px;
+}
+
+.project_text{
+    text-align: center;
+}
+
+.project_text h2{
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.project_text p {
+    margin: 8px 0 24px 0; 
+}
+
+/* Footer Section */
+
+footer{
+    background-color: #F8FFFB;
+}
+
+.footer_text{
+    padding-top: 40px;
+    margin-left: 142px;
+    margin-right: 133px;
+}
+
+.footer_text h2{
+    margin-top: 0px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.social_icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    margin-left: 142px;
+    margin-right: 133px;
+}
+
+.icons_content{
+    margin: auto;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.social {
+    width: 24px;
+    height: 24px;
+    color: #010038;
+}
+
+.icon {
+    margin: 8px;
+}
