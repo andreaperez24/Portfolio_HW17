@@ -10,6 +10,10 @@ p {
     color: #010038;
     font-size: 17px;
 }
+
+body{
+    background-color: #F8FFFB;
+}
 /* Header Section */
 
 header {
