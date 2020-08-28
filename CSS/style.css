@@ -32,6 +32,10 @@ header {
     line-height: 150%;
 }
 
+.nav_item:hover {
+    color: #0078CE;
+  }
+
 .logo {
     width: 242px;
     margin-right: 590px;
@@ -109,6 +113,10 @@ header {
     margin-top: 16px;
     margin-bottom: 8px;
 }
+
+.project_text h2:hover {
+    color: #0078CE;
+  }
 
 .project_text p {
     margin: 8px 0 24px 0; 
