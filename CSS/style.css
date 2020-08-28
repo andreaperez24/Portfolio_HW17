@@ -17,9 +17,10 @@ body{
 /* Header Section */
 
 header {
-    background-color: #F8FFFB;
     display: flex;
     align-items: center;
+    margin-left: 142px;
+    margin-right: 133px;
 }
 
 .nav_item{
@@ -33,30 +34,29 @@ header {
 
 .logo {
     width: 242px;
-    margin-left: 142px;
     margin-right: 590px;
     font-family: 'Satisfy', cursive;
     color: #F18C7E;
 }
 
 .navigation{
-    margin-right: 133px;
-   
+    display: inline-block;  
 }
 
 /* Header Section */
 
 .hero{
-    background-color: #F8FFFB;
     display: flex;
     height: 350px;
-}
-
-.content {
-    width: 765px;
     margin-left: 142px;
     margin-right: 50px;
 }
+
+.content {
+    width: 800px;
+    
+}
+
 .Andrea{
     font-family: 'Patua One', cursive;
     font-weight: bold;
@@ -78,8 +78,8 @@ header {
 /* Projects Section */
 
 .projects{
-    background-color: #F8FFFB;
     padding: 48px 133px 0 142px;
+
 }
 
 .special_h2 {
@@ -117,13 +117,12 @@ header {
 /* Footer Section */
 
 footer{
-    background-color: #F8FFFB;
+    margin-left: 142px;
+    margin-right: 133px;
 }
 
 .footer_text{
-    padding-top: 40px;
-    margin-left: 142px;
-    margin-right: 133px;
+    padding-top: 40px;  
 }
 
 .footer_text h2{
@@ -137,13 +136,11 @@ footer{
     flex-direction: row;
     align-items: center;
     justify-items: center;
-    margin-left: 142px;
-    margin-right: 133px;
 }
 
 .icons_content{
     margin: auto;
-    display: flex;
+    display: inline-block;
     margin-bottom: 40px;
 }
 
@@ -155,4 +152,5 @@ footer{
 
 .icon {
     margin: 8px;
+    display: inline-block;
 }
