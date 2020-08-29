@@ -12,7 +12,7 @@ p {
 }
 
 body{
-    background-color: #F8FFFB;
+    background-color: #ffffff;
 }
 /* Header Section */
 
@@ -97,12 +97,13 @@ header {
 
 .project_item{
     width: 1149px;
-    padding: 24px;
+    padding: 40px;
 }
 
 .mockup {
     width: 1149px;
     height: 350px;
+    border-radius: 10px;
 }
 
 .project_text{
