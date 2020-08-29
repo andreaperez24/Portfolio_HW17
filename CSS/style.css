@@ -24,6 +24,7 @@ header {
 }
 
 .nav_item{
+    list-style: none;
     display: inline-block;
     padding: 15px;
     font-family: 'Mulish', sans-serif;
@@ -44,7 +45,8 @@ header {
 }
 
 .navigation{
-    display: inline-block;  
+    display: inline-block; 
+    list-style: none; 
 }
 
 /* Header Section */
