@@ -89,22 +89,21 @@
 
 /*projects section */
 
-.projects{
-    margin-left: auto;
-    margin-right: auto;
+#projects{
+    width: 375px;
+    margin-left: 16px;
+    margin-right: 16px;
  
  }
  
  .special_h2 {
      font-size: 17px;
      margin-bottom: 16px;
-     margin-left: 24px;
+     margin-left: 0;
  }
  
  .project_item{
      width: 325px;
-     margin-left: auto;
-     margin-right: auto;
      margin-bottom: 48px;
  }
  
