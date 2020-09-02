@@ -133,8 +133,8 @@
  /*footer section */
 
  footer{
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
 .footer_text{
