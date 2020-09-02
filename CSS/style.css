@@ -1,3 +1,8 @@
+a {
+    text-decoration: none;
+}
+
+
 h2{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -14,7 +19,7 @@ p {
 body{
     background-color: #FCFFFD;
     margin-left: auto;
-       margin-right: auto;
+    margin-right: auto;
 }
 /* Header Section */
 
@@ -23,7 +28,7 @@ header {
     align-items: center;
     margin-left: 142px;
     margin-right: 0;
-    margin-top: 40px;
+    margin-top: 16px;
 }
 
 .nav_item{
@@ -53,10 +58,6 @@ header {
     list-style: none; 
 }
 
-
-.hamburger_menu {
-    display: none;
-}
 
 /* Header Section */
 
@@ -99,7 +100,7 @@ header {
 
 /* Projects Section */
 
-.projects{
+#projects{
    margin: 48px 133px 0 142px;
 
 }
@@ -127,7 +128,6 @@ header {
 .project_item:hover {
     transform: scale(1.1,1.1);
   }
-}
 
 .project_text{
     text-align: center;
