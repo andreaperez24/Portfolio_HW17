@@ -6,17 +6,17 @@
 @media all and (max-width: 600px) {
    
    body {
-       width: 375px;
-       margin-left: auto;
+       width: 325px;
        margin-right: auto;
+       margin-left: auto;
    }
     /*nav section */
 
     header{
-        width: 375px;
+        width: 325px;
         display: inline-block;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 16px;
+        margin-right: 16px;
         margin-top: 16px;
     }
     .logo h1{
