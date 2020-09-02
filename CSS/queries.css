@@ -1,0 +1,174 @@
+/*media queries */
+
+
+ /*mobile*/
+
+@media all and (max-width: 600px) {
+   
+   body {
+       width: 375px;
+       margin-left: auto;
+       margin-right: auto;
+   }
+    /*nav section */
+
+    header{
+        width: 375px;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .logo h1{
+        font-size: 24px;
+        text-align: center;
+        width: 100%;
+    }
+    .navigation {
+        display: none;
+    }
+
+     /*hero section */
+
+     .hero{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 16px;
+        margin-right: 16px;
+     }
+
+     .andrea {
+         margin-top: 40px;
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    .content {
+        width: 325px;  
+        display: flex; 
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .andrea_pic_hidden {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 8px;
+        margin-bottom: 8px;
+
+    }
+
+    .my_picture_mobile {
+        width: 92px;
+        height: 116px;
+        margin: 8 auto 8 auto;
+    }
+
+    .content h2 {
+        text-align: center;
+        font-size: 17px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    .content p {
+        text-align: center;
+        font-size: 13px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    
+    .my_picture {
+        display: none;
+    }
+
+/*projects section */
+
+.projects{
+    margin-left: auto;
+    margin-right: auto;
+ 
+ }
+ 
+ .special_h2 {
+     font-size: 17px;
+     margin-bottom: 16px;
+     margin-left: 24px;
+ }
+ 
+ .project_item{
+     width: 325px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 48px;
+ }
+ 
+ .mockup {
+     width: 325px;
+     height: 105px;
+     border-radius: 10px;
+ }
+ 
+ .project_text{
+     text-align: center;
+ }
+ 
+ .project_text h2{
+     font-size: 15px;
+     margin-top: 4px;
+     margin-bottom: 4px;
+ }
+ 
+ .project_text p {
+     font-size: 13px;
+     margin: 4px 0 8px 0; 
+ }
+
+ /*footer section */
+
+ footer{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer_text{
+    padding-top: 16px;  
+}
+
+.footer_text h2{
+    font-size: 17px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.social_icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+}
+
+.icons_content{
+    margin: auto;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.social {
+    width: 24px;
+    height: 24px;
+    color: #010038;
+}
+
+.icon {
+    margin: 4px;
+    display: inline-block;
+}
+
+  
+}
