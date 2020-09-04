@@ -85,6 +85,7 @@ header {
     height: 324px;
     border-radius: 16px;
     margin-right: 32px;
+    margin-left: 24px;
 }
 
 .about_me p {
@@ -197,5 +198,106 @@ button{
 
 button:hover{
     transform: scale(1.1,1.1);
-    background-color: #F4CBC6;
+}
+
+/* More about me Section */
+
+#more_about_me {
+    margin-left: 144px;
+    margin-right: 133px;
+    margin-top: 80px;
+}
+
+.more_about_me h2{
+    margin-top: 80px;
+}
+
+.books h3{
+    font-weight: lighter;
+}
+
+.book_list {
+    display: flex;
+    flex-direction: row;
+}
+
+.list_item {
+    display: inline-block;
+    margin: 8px;
+}
+
+.book_item {
+    width: 144px;
+    height: 210px;
+}
+
+.book_item:hover{
+    transform: scale(1.1,1.1);
+}
+
+.photographs h3{
+    font-weight: lighter;
+}
+.photo {
+    width: 95%;
+    height: 145px;
+    margin-bottom: 8px;
+}
+
+.photo:hover{
+    transform: scale(1.2,1.2);
+}
+
+.photo_grid{
+    line-height: 16px;
+    -webkit-column-count: 5;
+    -webkit-column-gap:   0;
+    -moz-column-count:    5;
+    -moz-column-gap:      0;
+    column-count:         5;
+    column-gap:           0;  
+    
+}
+
+
+/* Footer Section */
+
+footer{
+    margin-left: 142px;
+    margin-right: 133px;
+    margin-top: 40px;
+}
+
+.footer_text{
+    padding-top: 40px;  
+}
+
+.footer_text h2{
+    margin-top: 0px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.social_icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+}
+
+.icons_content{
+    margin: auto;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.social {
+    width: 24px;
+    height: 24px;
+    color: #010038;
+}
+
+.icon {
+    margin: 8px;
+    display: inline-block;
 }
