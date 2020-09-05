@@ -6,7 +6,7 @@
 @media all and (max-width: 600px) {
    
    body {
-       width: 325px;
+       width: auto;
        margin-right: auto;
        margin-left: auto;
    }
