@@ -6,7 +6,7 @@
 @media all and (max-width: 600px) {
    
    body {
-       width: auto;
+       width: 325px;
        margin-right: auto;
        margin-left: auto;
    }
@@ -35,7 +35,7 @@
      .hero{
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 325px;
         margin-left: 16px;
         margin-right: 16px;
      }
@@ -92,7 +92,7 @@
 /*projects section */
 
 #projects{
-    width: 375px;
+    width: 325px;
     margin-left: 16px;
     margin-right: 16px;
  
@@ -133,6 +133,7 @@
  /*footer section */
 
  footer{
+     width: 325px;
     margin-left: 16px;
     margin-right: 16px;
 }
