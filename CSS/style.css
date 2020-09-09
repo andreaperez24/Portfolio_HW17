@@ -67,8 +67,12 @@ header {
     list-style: none; 
 }
 
+.menu {
+    display: none;
+}
 
 /* Header Section */
+
 
 .hero{
     display: flex;
