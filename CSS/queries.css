@@ -40,6 +40,10 @@ nav {
         line-height: 2em;
     }
 
+    .sub-navigation{
+        display: none;
+    }
+
     .menu {
         display: block;
         cursor: pointer;

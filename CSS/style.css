@@ -49,27 +49,44 @@ header {
     line-height: 150%;
 }
 
-.nav_item:hover{
+.nav_item:hover {
     transform: scale(1.2,1.2);
-}
-
-
+  }
 
 .logo {
-    width: 242px;
-    margin-right: 600px;
     font-family: 'Satisfy', cursive;
     color: #F18C7E;
 }
 
+#logo-link:-webkit-any-link {
+    color:   #F18C7E;
+    cursor: pointer;
+}
+
+
 .navigation{
     display: inline-block; 
     list-style: none; 
+    margin-left: 696.047px;
+    margin-right: 133px;
 }
 
-.menu {
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+#nav-projects {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+.sub_navigation {
     display: none;
 }
+
+
 
 /* Header Section */
 
